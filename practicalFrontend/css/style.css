@@ -23,9 +23,16 @@ body{
 
 .form-container{
 	display: grid;
-	grid-template-rows: auto 1fr auto;
+	grid-template-rows: 1fr;
 	width: 300px;
 	justify-items: center;
+}
+
+.form-container-create{
+	display: grid;
+	grid-template-rows: 1fr;
+	width: 300px;
+	justify-items: start;
 }
 
 .logo{
@@ -104,12 +111,13 @@ body{
 	border: none;
 	border-radius: 8px;
 	height: 30px;
+	width: 100%;
 	font-size: var(--md);
 	padding: 6px;
 	margin-bottom: 12px;
 }
 
-.input-email{
+.input-email, .input-name, .input-password{
 	margin-bottom: 22px;
 }
 
